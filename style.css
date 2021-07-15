@@ -1,0 +1,41 @@
+body {
+
+    background-color: #222851;
+    margin: 0;
+    padding: 0;
+
+}
+
+#topBar {
+
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0%;
+    background-color: #282F5F;
+    display: flexbox;
+    justify-content: space-between;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: #161A35;
+
+}
+
+#topBar-text {
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    color: wheat;
+    float: right;
+    margin-right: 4%;
+    margin-top: 33px;
+
+}
+
+#topBar-Logo {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
