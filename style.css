@@ -39,3 +39,181 @@ body {
     margin-bottom: 10px;
 
 }
+
+#version-one-seventeen-one {
+
+    display: flex;
+    justify-content: center;
+    background-color: #2E366C;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #0A0C19;
+
+}
+
+#text-one-seventeen-one {
+
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: wheat;
+    padding: 0%;
+    margin: 2%;
+
+}
+
+#download-one-seventeen-one {
+
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 300px;
+    cursor: pointer;
+    padding: 0%;
+
+}
+
+/*-----------------*/
+
+#version-one-seventeen {
+
+    display: flex;
+    justify-content: center;
+    background-color: #2E366C;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #0A0C19;
+
+}
+
+#text-one-seventeen {
+
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: wheat;
+    padding: 0%;
+    margin: 2%;
+
+}
+
+#download-one-seventeen {
+
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 299px;
+    cursor: pointer;
+    padding: 0%;
+
+}
+
+/*-----------------*/
+
+#version-one-sixteen-five {
+
+    display: flex;
+    justify-content: center;
+    background-color: #2E366C;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #0A0C19;
+
+}
+
+#text-one-sixteen-five {
+
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: wheat;
+    padding: 0%;
+    margin: 2%;
+
+}
+
+#download-one-sixteen-five {
+
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 305px;
+    cursor: pointer;
+    padding: 0%;
+
+}
+
+/*-----------------*/
+
+#version-one-sixteen-four {
+
+    display: flex;
+    justify-content: center;
+    background-color: #2E366C;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #0A0C19;
+
+}
+
+#text-one-sixteen-four {
+
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: wheat;
+    padding: 0%;
+    margin: 2%;
+
+}
+
+#download-one-sixteen-four {
+
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 305px;
+    cursor: pointer;
+    padding: 0%;
+
+}
+
+/*-----------------*/
+
+#version-one-sixteen-three {
+
+    display: flex;
+    justify-content: center;
+    background-color: #2E366C;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #0A0C19;
+
+}
+
+#text-one-sixteen-three {
+
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: wheat;
+    padding: 0%;
+    margin: 2%;
+
+}
+
+#download-one-sixteen-three {
+
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 305px;
+    cursor: pointer;
+    padding: 0%;
+
+}
