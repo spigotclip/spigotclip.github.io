@@ -375,6 +375,13 @@ body {
 
 }
 
+.centeredDiv {
+
+    width: 100%;
+    text-align: center
+
+}
+
 #download-one-eight-six {
 
     margin-top: auto;
