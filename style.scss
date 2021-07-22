@@ -1,0 +1,130 @@
+$dark-0: hsl(300, 3%, 9%);
+$dark-1: hsl(300, 3%, 13%);
+$dark-2: hsl(300, 3%, 17%);
+$table-border: hsl(0, 0%, 75%);
+$text-1: hsl(0, 0%, 90%);
+$text-2: hsl(0, 0%, 82%);
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+}
+* {
+  font-family: "Roboto", sans-serif;
+  color: $text-1;
+  text-decoration: none;
+}
+a:hover {
+  color: $text-2;
+}
+a {
+  color: $text-1;
+}
+html,
+body {
+  margin: 0;
+  background: $dark-1;
+}
+footer {
+  margin-top: 50px;
+  background: $dark-0;
+  box-shadow: 0 0 4px rgba(0, 0, 0);
+  font-size: 1rem;
+  padding: 7.5px;
+  text-align: center;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+.download-btn {
+  padding: 4px;
+}
+table {
+  width: 1000px;
+  table-layout: fixed;
+  border-spacing: 0px;
+  border-collapse: separate;
+}
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 7.5px;
+}
+
+table tr:last-child td:first-child {
+  border-bottom-left-radius: 7.5px;
+}
+
+table tr:first-child th:first-child,
+table tr:first-child td:first-child {
+  border-top-left-radius: 7.5px;
+}
+
+table tr:first-child th:last-child,
+table tr:first-child td:last-child {
+  border-top-right-radius: 7.5px;
+}
+td,
+th {
+  border: 2px solid $table-border;
+  text-align: left;
+  padding: 10px;
+  padding-left: 20px;
+  font-size: 1.25rem;
+  a {
+    font-size: 1.2rem;
+  }
+}
+td {
+  border: 2px solid $table-border;
+  border-top: none;
+}
+td:nth-child(even) {
+  text-align: center;
+  padding-left: 10px;
+}
+.download {
+  border: 1px solid $text-1;
+  padding: 4px;
+  letter-spacing: 0.5px;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
+  height: 100%;
+}
+nav {
+  background: $dark-0;
+  width: 100%;
+  line-height: 4rem;
+  box-shadow: 0 0 4px rgba(0, 0, 0);
+  margin-bottom: 50px;
+  .title {
+    font-size: 2rem;
+    margin: 0;
+    height: 100%;
+    vertical-align: middle;
+    padding-right: 15px;
+  }
+}
+.center {
+  font-size: 1.5rem;
+  display: inline-block;
+  vertical-align: middle;
+  a {
+    padding-right: 5px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .center {
+    display: flex;
+    flex-direction: column;
+  }
+  td,
+  th {
+    border: 1px solid $table-border;
+  }
+  td {
+    border: 1px solid $table-border;
+    border-top: none;
+  }
+}
